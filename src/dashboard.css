@@ -7,7 +7,6 @@ body {
     padding-top: 50px;
   }
   
-  
   /*
    * Global add-ons
    */
@@ -102,5 +101,27 @@ body {
   .placeholder img {
     display: inline-block;
     border-radius: 50%;
+  }
+  
+  .card {
+    position: relative; margin: -30px 0px 10px 50px;
+    display: inline-block;
+    list-style-type: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .tickets {
+    border-radius: 1%;
+    padding-bottom: 10px;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    border-left: 1px solid #eee;
   }
   
