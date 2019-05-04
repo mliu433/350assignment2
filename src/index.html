@@ -52,13 +52,46 @@
       </div>
     </div>
   </nav>
+  
+  <!-- Create a ticket -->
+  
+  <div class="modal" id="create">
+  
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal">X</button>
+          <h4 class="modal-title">Create Ticket</h4>
+          <form class="needs-validation" novalidate>
+            <div class="form-group">
+              <input class="form-control" id="title" placeholder="Title" />
+            </div>
+            <div class="form-group">
+              <input class="form-control" id="category" placeholder="Category" />
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" id="message" formControlName="message" placeholder="Description"
+                rows="4"></textarea>
+            </div>
+            <button class="btn btn-primary" data-dismiss="modal">Cancel</button>
+            <button class="btn btn-primary" type="submit" data-toggle="modal">Create</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dashboard -->
 
   <div class="container-fluid">
     <div class="row">
+
+      <!-- Sidebar -->
       <div class="col-sm-3 col-md-2 sidebar">
         <ul class="nav nav-sidebar">
-          <li class="active"><a href="#"><i class="fas fa-plus"></i> <button class="blue button">Create Ticket</button></a></li>
-    
+          <li><a href="#" class="btn" data-toggle="modal" data-target="#create">
+            <i class="fas fa-plus"></i> Create Ticket</a></li>
+          
         </ul>
         <ul class="nav nav-sidebar">
           <li><a href="#">Budget</a></li>
@@ -70,6 +103,7 @@
         </ul>
       </div>
       
+      <!-- Main tickets area -->
       <div class="col-sm-9 col-md-10 main" id="main-view">
 
           <h1 class="page-header">Dashboard</h1>
@@ -84,7 +118,7 @@
             <div class="col-lg-4 col-md-4 col-xs-12">
               <div class="card">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Ticket title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                     content.</p>
                 </div>
@@ -94,7 +128,7 @@
             <div class="col-lg-4 col-md-4 col-xs-12">
               <div class="card">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Ticket title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                     content.</p>
                 </div>

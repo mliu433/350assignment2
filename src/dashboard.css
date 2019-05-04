@@ -8,15 +8,6 @@ body {
   }
   
   /*
-   * Global add-ons
-   */
-  
-  .sub-header {
-    padding-bottom: 10px;
-    border-bottom: 1px solid #eee;
-  }
-  
-  /*
    * Top navigation
    * Hide default border to remove 1px line.
    */
@@ -69,12 +60,7 @@ body {
   .main {
     padding: 20px;
   }
-  @media (min-width: 768px) {
-    .main {
-      padding-right: 40px;
-      padding-left: 40px;
-    }
-  }
+
   .main .page-header {
     margin-top: 0;
   }
@@ -135,17 +121,32 @@ body {
     padding-bottom: 15px;
   }
   
-  /* create ticket button */
-  .button.blue{
+  /* button */
+  .btn {
+    border-radius: 0%;
     background-color: #428bca;
     border-color: #428bca;
   }
-  
-  .button.blue:hover{
-    color: black;
+  .btn:hover {
+    background-color: #87bceb;
+    border-color: #87bceb;
+  }
+
+  .modal-content, .form-control {
+    border-radius: 0%;
+  }
+
+  .modal-title {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .modal .btn {
+    font-size: 18px;
   }
   
-  .button.blue:active{
-    background: #428bca;
+  @media (min-width: 768px) {
+    .main {
+      padding-right: 40px;
+      padding-left: 40px;
+    }
   }
-  
