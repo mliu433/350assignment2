@@ -82,6 +82,7 @@ body {
   }
   .main .page-header {
     margin-top: 0;
+    border-bottom: 2px solid  #eee;
   }
   
   .card {
@@ -129,6 +130,7 @@ body {
   /* background colour */
   #main-view {
     background-color: #f5f5f5;
+   
   }
   body {
     background-color: #f5f5f5;
@@ -136,6 +138,7 @@ body {
 
   .main .row {
     padding-bottom: 15px;
+    
   }
   
   .modal-content, .form-control {
