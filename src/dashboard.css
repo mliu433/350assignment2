@@ -39,7 +39,6 @@ body {
     height: 100vh;
     background-color: #f0f0f0;
   }
-
   .nav-sidebar {
     margin-right: -21px; /* 20px padding + 1px border */
     margin-bottom: 20px;
@@ -49,26 +48,42 @@ body {
     padding-right: 20px;
     padding-left: 20px;
   }
-  .nav-sidebar > .active > a,
-  .nav-sidebar > .active > a:hover,
-  .nav-sidebar > .active > a:focus {
+  .nav-sidebar > li > a:hover {
+    background-color: #e6e6e6;
+  }
+  .nav-sidebar > li > a:focus {
     color: #fff;
-    padding-left: 10px;
     background-color: #428bca;
   }
+
+  /* button */
+  .btn {
+    border-radius: 0%;
+    background-color: #428bca;
+    border-color: #428bca;
+  }
+  .btn:hover {
+    background-color: #87bceb;
+    border-color: #87bceb;
+  }
+  #create-new-button {
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #create-new-button:hover {
+    background-color: #87bceb;
+    border-color: #87bceb;
+  }
   
-  /*
-   * Main content
-   */
-  
+  /* Main content */
   .main {
     padding: 20px;
   }
-
   .main .page-header {
     margin-top: 0;
   }
-  
   
   .card {
     background-color: white;
@@ -78,7 +93,6 @@ body {
     color: black;
     padding: 5px;
   }
-  
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     cursor: pointer;
@@ -86,7 +100,7 @@ body {
   }
 
   /* for text within cards */
-  .card h4 {
+  .card-title {
     font-weight: 700;
   }
 
@@ -125,24 +139,6 @@ body {
     padding-bottom: 15px;
   }
   
-  /* button */
-  .btn {
-    border-radius: 0%;
-    background-color: #428bca;
-    border-color: #428bca;
-  }
-  .btn:hover {
-    background-color: #87bceb;
-    border-color: #87bceb;
-  }
-  #create-new-button {
-    color: white;
-  }
-  #create-new-button:hover {
-    background-color: #87bceb;
-    border-color: #87bceb;
-  }
-
   .modal-content, .form-control {
     border-radius: 0%;
   }
