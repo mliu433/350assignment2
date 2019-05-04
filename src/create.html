@@ -20,7 +20,7 @@
     <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
 
     <!-- Custom styles for this template -->
-    <link href="dashboard.css" rel="stylesheet">
+    <link href="createTicket.css" rel="stylesheet">
 
 
 </head>
@@ -74,36 +74,40 @@
             <div class="col-sm-9 col-md-10 main" id="main-view">
 
                 <h1 class="page-header">Create Ticket</h1>
-           
-                    <div class="container">
-                        <form action="/action_page.php" class="input">
-                            <label for="fname">Titie</label>
-                            <input  type="text" id="fname" name="firstname" placeholder="Type Title">
+                <div>
 
-                            <label for="lname">Catagory</label>
-                            <input type="text" id="lname" name="lastname" placeholder="Type Catagory">
+                    <form autocomplete="on">
+                        <label for="fname">Titie</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Type Title">
 
-                            <label for="country">Country</label>
-                            <select id="country" name="country">
-                                <option value="australia">Australia</option>
-                                <option value="canada">Canada</option>
-                                <option value="usa">USA</option>
-                            </select>
+                        <label for="lname">Catagory</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Type Catagory"> 
+                        
+                    </input>
 
-                            <input type="submit" value="Submit">
-                        </form>
-                    </div>
+                        <label for="lname">Description</label>
+                        <textarea type="text" id="description" name="lastname" placeholder="Type Description"></textarea>
+
+                        
+                        <input type="submit" value="Cancel">
+                        <input type="submit" value="Submit">
+                    </form>
                 </div>
-            <!-- Bootstrap core JavaScript
+
+            </div>
+
+        </div>
+    </div>
+    <!-- Bootstrap core JavaScript
     ================================================== -->
-            <!-- Placed at the end of the document so the pages load faster -->
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-            <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-            <script src="../../350assignment2/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-            <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-            <!-- <script src="../../assets/js/vendor/holder.min.js"></script> -->
-            <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-            <!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../350assignment2/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <!-- <script src="../../assets/js/vendor/holder.min.js"></script> -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
 </body>
 
 </html>
