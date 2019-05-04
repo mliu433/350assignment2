@@ -69,7 +69,6 @@ body {
   #create-new-button {
     font-size: 20px;
     color: white;
-    margin-top: 10px;
     margin-bottom: 10px;
   }
   #create-new-button:hover {
