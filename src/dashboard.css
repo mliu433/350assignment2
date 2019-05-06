@@ -66,6 +66,7 @@
 
   /* buttons */
   .btn {
+    color: #333333;
     border-radius: 5px;
     background: #fa7268;
     border:  #fa7268;
@@ -187,6 +188,7 @@
   }
   .modal .btn {
     font-size: 18px;
+    font-weight: 500;
   }
   
   @media (min-width: 768px) {
