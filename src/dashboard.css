@@ -70,21 +70,22 @@
     border-radius: 5px;
     background: #fa7268;
     border:  #fa7268;
+    transition: 0.2s;
+    font-size: 20px;
+    font-weight: 600;
   }
-  .btn:hover {
-    background: linear-gradient(to top right, #fa7268 0%, #f3a183 100%);
-    border-color:linear-gradient(to top right, #fa7268 0%, #f3a183 100%);
+  .btn:hover, .btn.hover {
+    /* background: linear-gradient(to top right, #fa7268 0%, #f3a183 100%);
+    border-color:linear-gradient(to top right, #fa7268 0%, #f3a183 100%); */
+    background-color: #f3a183;
+    border-color: #f3a183;
+    transform: scale(1.03);
+    transition: 0.2s;
   }
   #create-new-button {
-    font-size: 20px;
     color: #333333;
     margin-bottom: 10px;
     width: 100%;
-  }
-  #create-new-button:hover {
-    background-color: #fcb7b2;
-    border-color: #fcb7b2;
-    
   }
   
   /* Main content */
@@ -129,7 +130,7 @@
     list-style-type: none;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 5px;
-    transition: 0.3s;
+    transition: 0.2s;
     color: black;
   }
   .card:hover {
@@ -186,10 +187,9 @@
     text-align: center;
     padding-bottom: 10px;
   }
-  .modal .btn {
+  /* .modal .btn {
     font-size: 18px;
-    font-weight: 500;
-  }
+  } */
   
   @media (min-width: 768px) {
     .main {
