@@ -10,7 +10,7 @@
     border: 0;
   }
   .navbar {
-    background-color: #eeeeee;
+    background-color: #cfcfcf;
   }
   
   /*
@@ -25,11 +25,11 @@
   }
   .nav-sidebar {
     display: block;
+    padding: 0px;
   }
 
   .nav-sidebar > li > a {
-    padding-right: 20px;
-    padding-left: 20px;
+    color: black;
   }
   .nav-sidebar > li > a:hover {
     background-color: #e6e6e6;
@@ -53,6 +53,7 @@
     font-size: 20px;
     color: white;
     margin-bottom: 10px;
+    width: 100%;
   }
   #create-new-button:hover {
     background-color: #ff9891;
@@ -70,8 +71,9 @@
 
   /* Category Header */
   .ticket-group {
-    background-color: #fa7268;
-    color: white;
+    border-bottom: 3px solid #eee;
+    /* border-radius: 5px 5px 0px 0px ;
+    color: white; */
     padding: 10px;
   }
   
@@ -82,10 +84,6 @@
     border-radius: 5px;
     transition: 0.3s;
     color: black;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
   }
   .card:hover {
     transform: scale(1.03);
@@ -96,8 +94,11 @@
 
   /* for text within cards */
   .card-header {
-    font-weight: 700;
-    /* background-color: #fa7268; */
+    font-weight: 600;
+    color: white;
+    background-color: #fa7268;
+    border-bottom: none;
+    height: 30%;
   }
   .card a {
     text-decoration: none;
