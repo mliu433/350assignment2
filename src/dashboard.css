@@ -10,7 +10,15 @@
     border: 0;
   } */
   .navbar {
-    background-color: #e0e0e0;
+    background-color: #616161;
+  }
+  .navbar .form-control {
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 100%;
+  }
+  .navbar .form-control:focus {
+    background-color: white;
+    box-shadow: none;
   }
   
   /*
@@ -68,10 +76,22 @@
     border-bottom: 2px solid  #eee;
   }
 
+  /* item with rounded top corners */
+  .round-top {
+    border-radius: 5px 5px 0px 0px ;
+  }
+  /* item with square corners */
+  .round-inner {
+    border-radius: 0%;
+  }
+  /* item with rounded bottom corners */
+  .round-bottom {
+    border-radius: 0px 0px 5px 5px ;
+  }
+
   /* Category Header */
   .ticket-group {
     /* border-bottom: 3px solid #eee; */
-    border-radius: 5px 5px 0px 0px ;
     background-color: #e0e0e0;
     /* color: white; */
     padding: 10px;
@@ -120,13 +140,13 @@
     border-radius: 5px;
   }
   .form-control {
-    border-radius: 0%;
-    border: 3px solid transparent;
+    /* border: 3px solid transparent; */
   }
   .form-control:focus {
-    border: 3px solid rgba(250,114,104, 0.8);
+    /* border: 3px solid rgba(250,114,104, 0.8); */
     box-shadow: none;
   }
+
   #title {
     font-size: 20px;
     height: 46px;
