@@ -27,29 +27,26 @@
 
 <body>
 
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-          aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#"><i class="far fa-lightbulb"></i> Project name</a>
-      </div>
-      <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Dashboard</a></li>
-          <li><a href="#">Settings</a></li>
-          <li><a href="#">Profile</a></li>
-          <li><a href="#">Help</a></li>
-        </ul>
-        <form class="navbar-form navbar-right">
-          <input type="text" class="form-control" placeholder="Search...">
-        </form>
-      </div>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+      aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#"><i class="far fa-lightbulb"></i> Project name</a>
+    <div id="navbar" class="navbar-collapse collapse">
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search...">
+      </form>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Dashboard</a></li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Settings</a></li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Profile</a></li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Help</a></li>
+      </ul>
     </div>
   </nav>
   
@@ -93,12 +90,12 @@
           <a href="#" class="btn center-block" id="create-new-button" data-toggle="modal" data-target="#create">
               <i class="fas fa-plus"></i> Create Ticket</a>
         <ul class="nav nav-sidebar">
-          <li><a href="#">Budget</a></li>
-          <li><a href="#">Design</a></li>
-          <li><a href="#">Marketing</a></li>
-          <li><a href="#">Schedule</a></li>
-          <li><a href="#">Testing</a></li>
-          <li><a href="#">Useability</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Budget</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Design</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Marketing</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Schedule</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Testing</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Useability</a></li>
         </ul>
       </div>
       
