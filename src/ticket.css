@@ -9,22 +9,20 @@
     
 }
 .input-group-text{
-    background-color: #fa7268;
+    background-color:#e0e0e0;
 height: auto;
 position: absolute;
 right: 20px;
-margin-top: 5px;
 border-radius: 12px;
 }
 
 
-.label {
+/* .label {
     color: white;
     padding: 8px;
   }
   .success {background-color: #4CAF50;
-
-}
+} */
 
 .col > label {
 font-size: 14px;
