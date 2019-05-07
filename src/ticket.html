@@ -1,134 +1,141 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <!-- <link rel="icon" href="../../favicon.ico"> -->
-  <!-- <link rel="canonical" href="https://getbootstrap.com/docs/3.3/examples/dashboard/"> -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="icon" href="../../favicon.ico"> -->
+    <!-- <link rel="canonical" href="https://getbootstrap.com/docs/3.3/examples/dashboard/"> -->
 
-  <title>Dashboard Template for Bootstrap</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
-    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-  <!-- Bootstrap core CSS -->
-  <link href="../../350assignment2/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Dashboard Template for Bootstrap</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <!-- Bootstrap core CSS -->
+    <link href="../../350assignment2/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug
     <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
 
-  <!-- Custom styles for this template -->
-  <link href="dashboard.css"  rel="stylesheet">
-  <link href="ticket.css"  rel="stylesheet">
- 
+    <!-- Custom styles for this template -->
+    <link href="dashboard.css" rel="stylesheet">
+    <link href="ticket.css" rel="stylesheet">
+
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark justify-content-end">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
-      aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand" id="project" href="#"><i class="far fa-lightbulb"></i> Project name</a>
-    <form class="form-inline ml-auto mr-2 my-auto d-inline">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search">
-      </form>
-    <div id="navbar"  class="navbar-collapse collapse flex-grow-0">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" id="panel" href="#">Dashboard</a></li>
-        <li class="nav-item">
-          <a class="nav-link" id="panel" href="#">Settings</a></li>
-        <li class="nav-item">
-          <a class="nav-link" id="panel"href="#">Profile</a></li>
-        <li class="nav-item">
-          <a class="nav-link" id="panel" href="#">Help</a></li>
-      </ul>
-    </div>
-  </nav>
-   <!-- Discussion -->
- <div class ="container"> 
-       
-                  <div class="modal-content">
-                    <div class="modal-body">
-                     
-                      <form class="needs-validation" novalidate>
-                        <div class="form-group">
-                          <input class="form-control form-control-lg round-top" type="text" id="title" placeholder="Title" readonly>
-                        </div>
-                       
-                        <div class="form-group">
-                          <textarea class="form-control round-bottom" type="text" id="message" formControlName="message" placeholder="Description"
-                            rows="6" readonly></textarea>
-                        </div>
-                        <div class="text-right">
-                         
-                          <button class="btn btn-primary" type="submit" data-toggle="modal">Comment</button>
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-                
+    <nav class="navbar navbar-expand-lg navbar-dark justify-content-end">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+            aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" id="project" href="#"><i class="far fa-lightbulb"></i> Project name</a>
+        <form class="form-inline ml-auto mr-2 my-auto d-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search">
+        </form>
+        <div id="navbar" class="navbar-collapse collapse flex-grow-0">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" id="panel" href="#">Dashboard</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" id="panel" href="#">Settings</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" id="panel" href="#">Profile</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" id="panel" href="#">Help</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Discussion -->
+    <div class="container">
 
- </div>
-
- <div class="container">
         <div class="modal-content">
-                <div class="modal-body">
-                 
-                  <form class="needs-validation" novalidate>
+            <div class="modal-body">
+
+                <form class="needs-validation" novalidate>
                     
-                        <div class="form-group">
-                            <h5>user1</h5>
-                                <textarea class="form-control round-bottom" type="text" id="message" formControlName="message" placeholder="good design"
-                                  rows="6" readonly></textarea>
-                              </div>
-                   
                     <div class="form-group">
-                      <textarea class="form-control round-bottom" type="text" id="message" formControlName="message" placeholder="Write comment"
-                        rows="6" ></textarea>
+                    
+                            <div class="input-group-prepend">
+                                    <div class="input-group-text">Budget</div>
+                                
+                        <label class="form-control form-control-lg round-top" type="text" id="title" placeholder="Title"
+                            readonly>ttttt</label>   
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea class="form-control round-bottom" type="text" id="message" formControlName="message"
+                            placeholder="Description" rows="6" readonly></textarea>
+                    </div>
+
+                    <div class="text-right">
+                        <button class="btn btn-primary" type="submit" data-toggle="modal">Comment</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="container">
+        <div class="modal-content">
+            <div class="modal-body">
+
+                <form class="needs-validation" novalidate>
+
+                    <div class="form-group">
+                        <h5>user1</h5>
+                        <textarea class="form-control round-bottom" type="text" id="message" formControlName="message"
+                            placeholder="good design" rows="6" readonly></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea class="form-control round-bottom" type="text" id="message" formControlName="message"
+                            placeholder="Write comment" rows="6"></textarea>
                         <div class="tool"><button class="fas fa-bold"></button> &nbsp
                             <button class="fas fa-italic"></button> &nbsp
                             <button class="fas fa-underline"></button> &nbsp
                             <select>
-                                    <option value="Arial">Arial</option>
-                                    <option value="Helvetica">Helvetica</option>
-                                    <option value="Georgia">Georgia</option>
-                                   
-                                  </select>
+                                <option value="Arial">Arial</option>
+                                <option value="Helvetica">Helvetica</option>
+                                <option value="Georgia">Georgia</option>
+
+                            </select>
                         </div>
                     </div>
-                   
-                  </form>
-                </div>
-              </div>
- </div>
 
-  <!-- Dashboard -->
+                </form>
+            </div>
+        </div>
+    </div>
 
-  <div class="container-fluid">
-    <div class="row">
+    <!-- Dashboard -->
 
-      <!-- Main tickets area -->
-      <div class="col-sm-9 col-md-10 main" id="main-view">
+    <div class="container-fluid">
+        <div class="row">
 
-          <!-- <h1 class="page-header">Dashboard</h1> -->
- 
-          </div>
-        <!-- Bootstrap core JavaScript
+            <!-- Main tickets area -->
+            <div class="col-sm-9 col-md-10 main" id="main-view">
+
+                <!-- <h1 class="page-header">Dashboard</h1> -->
+
+            </div>
+            <!-- Bootstrap core JavaScript
     ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-        <script src="../../350assignment2/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-        <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-        <!-- <script src="../../assets/js/vendor/holder.min.js"></script> -->
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
-        <!-- <script src="https://unpkg.com/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"></script>
+            <!-- Placed at the end of the document so the pages load faster -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+            <script src="../../350assignment2/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+            <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+            <!-- <script src="../../assets/js/vendor/holder.min.js"></script> -->
+            <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+            <!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
+            <!-- <script src="https://unpkg.com/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"></script>
         <script>
         $('div.row').masonry({
         columnWidth: 'div.masonry',
@@ -137,4 +144,5 @@
         </script> -->
 
 </body>
+
 </html>
