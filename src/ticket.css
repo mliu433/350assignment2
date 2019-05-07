@@ -1,3 +1,13 @@
 form-group > textarea {
+
+}
+
+.container {
+    padding-top: 15px;
+}
+
+.tool{
+    display: inline;
+    padding-left: 15px;
     
 }

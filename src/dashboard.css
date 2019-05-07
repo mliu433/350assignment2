@@ -10,7 +10,12 @@
     border: 0;
   } */
   .navbar {
-    background-color: #616161;
+    background: linear-gradient(to top right, #fa7268 0%, #f3a183 100%);
+  }
+
+  #project {
+    font-weight: 600;
+    color: #333333;
   }
   .navbar .form-control {
     background-color: rgba(255, 255, 255, 0.75);
@@ -21,6 +26,13 @@
     box-shadow: none;
   }
   
+  #panel:hover {
+font-weight: 700;
+    }
+    
+    #panel {
+    color:#333333;
+    }
   /*
    * Sidebar
    */
@@ -36,10 +48,12 @@
   }
 
   .nav-sidebar > li > a {
-    color: #616161;
+    /* color: #616161; */
+    color: rgb(73, 111, 145);
   }
   .nav-sidebar > li > a:hover {
     background-color: #e6e6e6;
+    font-weight: 600;
   }
   .nav-sidebar > li > a:focus {
     color: black;
@@ -49,22 +63,23 @@
   /* buttons */
   .btn {
     border-radius: 5px;
-    background-color: #fa7268;
-    border-color: #fa7268;
+    background: #fa7268;
+    border:  #fa7268;
   }
   .btn:hover {
-    background-color: #fcb7b2;
-    border-color: #fcb7b2;
+    background: linear-gradient(to top right, #fa7268 0%, #f3a183 100%);
+    border-color:linear-gradient(to top right, #fa7268 0%, #f3a183 100%);
   }
   #create-new-button {
     font-size: 20px;
-    color: white;
+    color: #333333;
     margin-bottom: 10px;
     width: 100%;
   }
   #create-new-button:hover {
     background-color: #fcb7b2;
     border-color: #fcb7b2;
+    
   }
   
   /* Main content */
@@ -79,6 +94,7 @@
   /* item with rounded top corners */
   .round-top {
     border-radius: 5px 5px 0px 0px ;
+    font-size: 20px;
   }
   /* item with square corners */
   .round-inner {
@@ -120,11 +136,12 @@
 
   /* for text within cards */
   .card-header {
-    font-weight: 600;
-    color: white;
-    background-color: #fa7268;
+    /* font-weight: 500; */
+    color: #333333;
+    background:  linear-gradient(to top right, #fa7268 0%, #f3a183 100%);;
     border-bottom: none;
-   
+    font-size: 18px;
+    font-weight: 700;
   }
   .card a {
     text-decoration: none;
