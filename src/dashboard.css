@@ -31,12 +31,13 @@
   #panel:hover {
     /* font-weight: 700; */
     /* color:#fff2f1; */
-    transform: scale(1.05);
+    transform: scale(1.1);
     transition: 0.2s;
   }
     
   #panel {
     color:#333333;
+    transition: 0.2s;
     }
   /*
    * Sidebar
@@ -133,16 +134,25 @@
     padding: 10px;
     cursor: pointer;
   }
+  .fa-collapse {
+    transition: 0.2s;
+    color: #6b6b6b;
+  }
+  .ticket-group:hover .fa-collapse {
+    transform: scale(1.1);
+    transition: 0.2s;
+    color: #333333;
+  }
   /* icons */
   .fa-collapse:before {   
-  content: "\f077";
+    content: "\f077";
   }
   .collapsed .fa-collapse:before {
-  content: "\f078";
+    content: "\f078";
   }
-  /* .ticket-group:hover .fa-collapse {
-    color: #d3d3d3;
-  } */
+  .ticket-group.collapsed {
+    /* border-radius: 5px; */
+  }
   
   .card-row {
     padding-bottom: 25px;
