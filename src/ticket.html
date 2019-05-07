@@ -72,7 +72,7 @@
                     </div>
 
                     <div class="text-right">
-                        <button class="btn" type="submit" data-toggle="modal">Comment</button>
+                        <button class="btn btn-main" type="submit" data-toggle="modal">Comment</button>
                     </div>
                 </form>
             </div>
@@ -135,7 +135,7 @@
                     </div>
                     <div class="form-group">
                         <input type="hidden" name="comment_id" id="comment_id" value="0">
-                        <input type="submit" name="submit" id="submit" class="btn btn-info" value="Submit">
+                        <input type="submit" name="submit" id="submit" class="btn btn-main btn-info" value="Submit">
                     </div>
                 </form>
                 <span id="comment_message"></span>
@@ -144,31 +144,55 @@
 
         <div class="row comments">
             <div class="col-md-12">
-                <div id="display_comment">
-                    <div class="panel panel-default">
-                        <div class="panel-heading"><b>Dona Huber</b> on <i>2017-12-29 05:17:38</i></div>
-                        <div class="panel-body">I am waiting for more update.</div>
-                        <div class="panel-footer"><button type="button" class="btn reply"
-                                id="2">Reply</button></div>
+        
+                <div class="panel panel-default">
+                    <div class="panel-heading"><b>Dona Huber</b><i>2017-12-29 05:17:38</i></div>
+                    <div class="panel-body">I am waiting for more update.</div>
+                    <div class="panel-footer">
+                        <div class="btn-group react-bar" role="group" aria-label="Reaction buttons">
+                            <button type="button" class="btn btn-react"><i class="fas fa-check"></i> 1</button>
+                            <button type="button" class="btn btn-react"><i class="fas fa-check"></i> 2</button>
+                            <button type="button" class="btn btn-react"><i class="fas fa-circle-o"></i> 0</button>
+                            <button type="button" class="btn btn-react"><i class="fas fa-times"></i> 1</button>
+                            <button type="button" class="btn btn-react"><i class="fas fa-times"></i> 0</button>
+                        </div><button type="button" class="btn reply" id="2">Reply</button>
                     </div>
         
-                    <div class="panel panel-default" style="margin-left:48px">
+                    <div class="panel panel-default panel-reply">
                         <div class="panel-heading"><b>Peter Parker</b> on <i>2017-12-29 05:18:33</i></div>
                         <div class="panel-body">Thanks...</div>
                         <div class="panel-footer">
                             <div class="btn-group react-bar" role="group" aria-label="Reaction buttons">
-                                <button type="button" class="btn btn-react">1</button>
-                                <button type="button" class="btn btn-react">2</button>
-                                <button type="button" class="btn btn-react">3</button>
-                                <button type="button" class="btn btn-react">4</button>
-                                <button type="button" class="btn btn-react">5</button>
+                                <button type="button" class="btn btn-react"><i class="fas fa-check"></i> 1</button>
+                                <button type="button" class="btn btn-react"><i class="fas fa-check"></i> 2</button>
+                                <button type="button" class="btn btn-react"><i class="fas fa-circle-o"></i> 3</button>
+                                <button type="button" class="btn btn-react"><i class="fas fa-check"></i> 4</button>
+                                <button type="button" class="btn btn-react"><i class="fas fa-check"></i> 5</button>
                             </div>
                             <button type="button" class="btn reply" id="5">Reply</button>
                         </div>
                     </div>
+        
+                    <div class="panel panel-default panel-reply">
+                        <div class="panel-heading"><b>Evelyn Kim</b> on <i>2017-12-29 05:18:59</i></div>
+                        <div class="panel-body">OK..Sure</div>
+                        <div class="panel-footer">
+                            <div class="btn-group react-bar" role="group" aria-label="Reaction buttons">
+                                <button type="button" class="btn btn-react"><i class="fas fa-check"></i> 1</button>
+                                <button type="button" class="btn btn-react"><i class="fas fa-check"></i> 2</button>
+                                <button type="button" class="btn btn-react"><i class="fas fa-circle-o"></i> 3</button>
+                                <button type="button" class="btn btn-react"><i class="fas fa-check"></i> 4</button>
+                                <button type="button" class="btn btn-react"><i class="fas fa-check"></i> 5</button>
+                            </div>
+                            <button type="button" class="btn reply" id="6">Reply</button>
+                            <button type="button" class="btn reply">Edit</button>
+                        </div>
                     </div>
+                </div>
+        
             </div>
         </div>
+
         <div class="row comments">
             <div class="col-md-12">
                 <div class="panel panel-default">
@@ -176,62 +200,49 @@
                     <div class="panel-body">Nice Post</div>
                     <div class="panel-footer">
                         <div class="btn-group react-bar" role="group" aria-label="Reaction buttons">
-                            <button type="button" class="btn btn-react">1</button>
-                            <button type="button" class="btn btn-react">2</button>
-                            <button type="button" class="btn btn-react">3</button>
-                            <button type="button" class="btn btn-react">4</button>
-                            <button type="button" class="btn btn-react">5</button>
+                            <button type="button" class="btn btn-react"><i class="fas fa-check"></i> 1</button>
+                            <button type="button" class="btn btn-react"><i class="fas fa-check"></i> 2</button>
+                            <button type="button" class="btn btn-react"><i class="fas fa-circle-o"></i> 3</button>
+                            <button type="button" class="btn btn-react"><i class="fas fa-check"></i> 4</button>
+                            <button type="button" class="btn btn-react"><i class="fas fa-check"></i> 5</button>
                         </div>
                         <button type="button" class="btn reply" id="1">Reply</button>
                         <button type="button" class="btn reply">Edit</button>
                     </div>
-                </div>
+                
         
-                <div class="panel panel-default" style="margin-left:48px">
+                <div class="panel panel-default panel-reply" >
                     <div class="panel-heading"><b>Peter Parker</b> on <i>2017-12-29 05:17:55</i></div>
                     <div class="panel-body">Thanks John!</div>
                     <div class="panel-footer">
                         <div class="btn-group react-bar" role="group" aria-label="Reaction buttons">
-                            <button type="button" class="btn btn-react">1</button>
-                            <button type="button" class="btn btn-react">2</button>
-                            <button type="button" class="btn btn-react">3</button>
-                            <button type="button" class="btn btn-react">4</button>
-                            <button type="button" class="btn btn-react">5</button>
+                            <button type="button" class="btn btn-react"><i class="fas fa-check"></i> 1</button>
+                            <button type="button" class="btn btn-react"><i class="fas fa-check"></i> 2</button>
+                            <button type="button" class="btn btn-react"><i class="fas fa-circle-o"></i> 3</button>
+                            <button type="button" class="btn btn-react"><i class="fas fa-check"></i> 4</button>
+                            <button type="button" class="btn btn-react"><i class="fas fa-check"></i> 5</button>
                         </div>
                         <button type="button" class="btn reply" id="3">Reply</button>
                     </div>
-                </div>
+                
         
-                <div class="panel panel-default" style="margin-left:96px">
+                <div class="panel panel-default panel-reply">
                     <div class="panel-heading"><b>John Smith</b> on <i>2017-12-29 05:18:19</i></div>
                     <div class="panel-body">You are welcome Peter.</div>
                     <div class="panel-footer">
                         <div class="btn-group react-bar" role="group" aria-label="Reaction buttons">
-                            <button type="button" class="btn btn-react">1</button>
-                            <button type="button" class="btn btn-react">2</button>
-                            <button type="button" class="btn btn-react">3</button>
-                            <button type="button" class="btn btn-react">4</button>
-                            <button type="button" class="btn btn-react">5</button>
+                            <button type="button" class="btn btn-react"><i class="fas fa-check"></i> 1</button>
+                            <button type="button" class="btn btn-react"><i class="fas fa-check"></i> 2</button>
+                            <button type="button" class="btn btn-react"><i class="fas fa-circle-o"></i> 3</button>
+                            <button type="button" class="btn btn-react"><i class="fas fa-check"></i> 4</button>
+                            <button type="button" class="btn btn-react"><i class="fas fa-check"></i> 5</button>
                         </div>
                         <button type="button" class="btn reply" id="4">Reply</button>
                         <button type="button" class="btn reply">Edit</button>
                     </div>
         
-                <div class="panel panel-default" style="margin-left:144px">
-                    <div class="panel-heading"><b>Peter Parker</b> on <i>2017-12-29 05:18:59</i></div>
-                    <div class="panel-body">OK..Sure</div>
-                    <div class="panel-footer">
-                        <div class="btn-group react-bar" role="group" aria-label="Reaction buttons">
-                            <button type="button" class="btn btn-react">1</button>
-                            <button type="button" class="btn btn-react">2</button>
-                            <button type="button" class="btn btn-react">3</button>
-                            <button type="button" class="btn btn-react">4</button>
-                            <button type="button" class="btn btn-react">5</button>
-                        </div>
-                        <button type="button" class="btn reply" id="6">Reply</button>
-                        <button type="button" class="btn reply">Edit</button>
-                    </div>
-                </div>
+            </div>
+            </div>
             </div>
         </div>
 
