@@ -144,15 +144,17 @@
         <div class="row">
             <div class="col-md-12">
                 <form method="POST" id="comment_form">
-                    <div class="form-group">
-                        <input type="text" name="comment_name" id="comment_name" class="form-control" placeholder="Enter Name">
-                    </div>
-                    <div class="form-group">
-                        <textarea name="comment_content" id="comment_content" class="form-control" placeholder="Enter Comment" rows="5"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <input type="hidden" name="comment_id" id="comment_id" value="0">
-                        <input type="submit" name="submit" id="submit" class="btn btn-main btn-info" value="Submit">
+                    <div class="collapse show" id="collapseComment">
+                        <div class="form-group" id="box">
+                            <textarea name="comment_content" type="text" id="comment_content" class="form-control"
+                                placeholder="Enter Comment" rows="5" style="width:100%;"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="hidden" name="comment_id" id="comment_id" value="0">
+                            <div class="text-right">
+                                <input type="submit" name="submit" id="submit" class="btn btn-main" value="Submit">
+                            </div>
+                        </div>
                     </div>
                 </form>
                 <span id="comment_message"></span>
