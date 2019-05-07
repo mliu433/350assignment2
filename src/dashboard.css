@@ -74,21 +74,23 @@
 
   /* buttons */
   .btn {
+    transition: 0.2s;
+  }
+  .btn:hover, .btn.hover {
+    transform: scale(1.03);
+    transition: 0.2s;
+  }
+  .btn-main {
     color: #333333;
     border-radius: 5px;
     background: #fa7268;
     border:  #fa7268;
-    transition: 0.2s;
     font-size: 1.3rem;
     font-weight: 600;
   }
-  .btn:hover, .btn.hover {
-    /* background: linear-gradient(to top right, #fa7268 0%, #f3a183 100%);
-    border-color:linear-gradient(to top right, #fa7268 0%, #f3a183 100%); */
+  .btn-main:hover, .btn-main.hover {
     background-color: #f3a183;
     border-color: #f3a183;
-    transform: scale(1.03);
-    transition: 0.2s;
   }
   #create-new-button {
     color: #333333;
