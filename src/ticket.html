@@ -82,7 +82,7 @@
 
     </div>
 
-    <div class="container">
+    <!-- <div class="container">
         <div class="modal-content">
             <div class="modal-body">
 
@@ -125,8 +125,65 @@
                 </form>
             </div>
         </div>
-    </div>
+    </div> -->
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-md-9">
+                <form method="POST" id="comment_form">
+                    <div class="form-group">
+                        <input type="text" name="comment_name" id="comment_name" class="form-control" placeholder="Enter Name">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="comment_content" id="comment_content" class="form-control" placeholder="Enter Comment" rows="5"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="hidden" name="comment_id" id="comment_id" value="0">
+                        <input type="submit" name="submit" id="submit" class="btn btn-info" value="Submit">
+                    </div>
+                </form>
+                <span id="comment_message"></span>
+                <br>
+                <div id="display_comment">
+<div class="panel panel-default">
+    <div class="panel-heading">By <b>Dona Huber</b> on <i>2017-12-29 05:17:38</i></div>
+    <div class="panel-body">I am waiting for more update.</div>
+    <div class="panel-footer" alignment="right"><button type="button" class="btn btn-default reply" id="2">Reply</button></div>
+</div>
 
+        <div class="panel panel-default" style="margin-left:48px">
+            <div class="panel-heading">By <b>Peter Parker</b> on <i>2017-12-29 05:18:33</i></div>
+            <div class="panel-body">Thanks...</div>
+            <div class="panel-footer" alignment="right"><button type="button" class="btn btn-default reply" id="5">Reply</button></div>
+        </div>
+        
+<div class="panel panel-default">
+    <div class="panel-heading">By <b>John Smith</b> on <i>2017-12-29 05:17:09</i></div>
+    <div class="panel-body">Nice Post</div>
+    <div class="panel-footer" alignment="right"><button type="button" class="btn btn-default reply" id="1">Reply</button></div>
+</div>
+
+        <div class="panel panel-default" style="margin-left:48px">
+            <div class="panel-heading">By <b>Peter Parker</b> on <i>2017-12-29 05:17:55</i></div>
+            <div class="panel-body">Thanks John!</div>
+            <div class="panel-footer" alignment="right"><button type="button" class="btn btn-default reply" id="3">Reply</button></div>
+        </div>
+        
+        <div class="panel panel-default" style="margin-left:96px">
+            <div class="panel-heading">By <b>John Smith</b> on <i>2017-12-29 05:18:19</i></div>
+            <div class="panel-body">You are welcome Peter.</div>
+            <div class="panel-footer" alignment="right"><button type="button" class="btn btn-default reply" id="4">Reply</button></div>
+        </div>
+        
+        <div class="panel panel-default" style="margin-left:144px">
+            <div class="panel-heading">By <b>Peter Parker</b> on <i>2017-12-29 05:18:59</i></div>
+            <div class="panel-body">OK..Sure</div>
+            <div class="panel-footer" alignment="right"><button type="button" class="btn btn-default reply" id="6">Reply</button></div>
+        </div>
+        </div>
+            </div>
+        </div>
+    </div>
     <!-- Dashboard -->
 
     <div class="container-fluid">
