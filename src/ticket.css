@@ -31,20 +31,23 @@ font-size: 14px;
 
 }
 
-#bar {
-    padding-top: 10px;
-}
-
-#reply {
-    padding-top: 10px;
+.reply {
     border:none;
-    position: absolute;
     left: 300px;
     background: none;
     cursor: pointer;
 }
-
-#message {
+.btn-react {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.comments {
+    border-radius: 5px;
+    background-color: white;
     padding: 10px;
-
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0px;
+    margin-right: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
