@@ -100,6 +100,9 @@
   .card-row {
     padding-bottom: 25px;
   }
+  .card-row .col-lg-4 {
+    padding: 15px;
+  }
   .card {
     background-color: white;
     list-style-type: none;
@@ -121,7 +124,7 @@
     color: white;
     background-color: #fa7268;
     border-bottom: none;
-    height: 30%;
+   
   }
   .card a {
     text-decoration: none;
@@ -159,6 +162,11 @@
   }
   .modal .btn {
     font-size: 18px;
+  }
+
+  .btn:focus, .btn.focus {
+
+    box-shadow:none;
   }
   
   @media (min-width: 768px) {

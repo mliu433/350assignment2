@@ -105,13 +105,13 @@
           <!-- <h1 class="page-header">Dashboard</h1> -->
 
           <div class="row">
-            <div class="col-sm-12">
+            <div class="col-sm-12 masonry">
               <h5 class="ticket-group round-top"><i class="fas fa-money-check"></i> Budget</h5>
             </div>
           </div>
 
           <div class="row card-row">
-            <div class="col-lg-4 col-md-4 col-xs-12">
+            <div class="col-lg-4 col-md-4 col-xs-12 masonry">
               <div class="card">
                 <h5 class="card-header">Ticket title</h5>
                 <div class="card-body">
@@ -124,7 +124,7 @@
               </div>
             </div>
             
-            <div class="col-lg-4 col-md-4 col-xs-12">
+            <div class="col-lg-4 col-md-4 col-xs-12 masonry">
               <div class="card">
                 <h5 class="card-header">Ticket title that is actually rather long</h5>
                 <div class="card-body">
@@ -137,7 +137,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-4 col-xs-12">
+            <div class="col-lg-4 col-md-4 col-xs-12 masonry">
               <div class="card">
                 <h5 class="card-header">Ticket title that is probably much longer than that first one there, to test how a really long title looks</h5>
                 <div class="card-body">
@@ -150,16 +150,29 @@
               </div>
             </div>
 
+            <!-- <div class="col-lg-4 col-md-4 col-xs-12 masonry">
+              <div class="card">
+                <h5 class="card-header">Ticket title that is actually rather long</h5>
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                    content.</p>
+                  <i class="far fa-comment-dots" id="comment">15&nbsp&nbsp </i>
+                  <i class="far fa-eye" id="view">17 &nbsp</i>
+                  <i class="fas fa-check" id="approve">&nbsp9</i>
+                </div>
+              </div>
+            </div> -->
+            
           </div>
           
           <div class="row">
-            <div class="col-sm-12">
+            <div class="col-sm-12 masonry">
               <h4 class="ticket-group round-top"><i class="fas fa-money-check"></i> Design</h4>
             </div>
           </div>
           
           <div class="row card-row">
-              <div class="col-lg-4 col-md-4 col-xs-12">
+              <div class="col-lg-4 col-md-4 col-xs-12 masonry" >
                 <div class="card">
                   <h5 class="card-header">Ticket title</h5>
                   <div class="card-body">
@@ -185,7 +198,13 @@
         <!-- <script src="../../assets/js/vendor/holder.min.js"></script> -->
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
         <!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
-
+        <!-- <script src="https://unpkg.com/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"></script>
+        <script>
+        $('div.row').masonry({
+        columnWidth: 'div.masonry',
+        itemSelector: 'div.masonry'
+        });
+        </script> -->
 
 </body>
 </html>
