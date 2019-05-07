@@ -46,6 +46,7 @@
   .sidebar {
     background-color: #eeeeee;
     border-right: 1px solid #eeeeee;
+    min-height: 100vp;
   }
   .nav-sidebar {
     display: block;
@@ -130,7 +131,18 @@
     background-color: #e0e0e0;
     /* color: white; */
     padding: 10px;
+    cursor: pointer;
   }
+  /* icons */
+  .fa-collapse:before {   
+  content: "\f077";
+  }
+  .collapsed .fa-collapse:before {
+  content: "\f078";
+  }
+  /* .ticket-group:hover .fa-collapse {
+    color: #d3d3d3;
+  } */
   
   .card-row {
     padding-bottom: 25px;
