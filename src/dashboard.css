@@ -137,6 +137,7 @@
   .fa-collapse {
     transition: 0.2s;
     color: #6b6b6b;
+    float: right;
   }
   .ticket-group:hover .fa-collapse {
     transform: scale(1.1);
@@ -150,9 +151,9 @@
   .collapsed .fa-collapse:before {
     content: "\f078";
   }
-  .ticket-group.collapsed {
-    /* border-radius: 5px; */
-  }
+  /* .ticket-group.collapsed {
+    border-radius: 5px;
+  } */
   
   .card-row {
     padding-bottom: 25px;
