@@ -82,6 +82,12 @@ font-weight: 700;
     
   }
   
+  /* #collapse{
+    position: absolute;
+    right: 30px;
+    color:#fa7268;
+    font-size: 30px;
+  } */
   /* Main content */
   .main {
     padding: 20px;
