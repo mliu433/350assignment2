@@ -25,3 +25,26 @@ border-radius: 12px;
   .success {background-color: #4CAF50;
 
 }
+
+.col > label {
+font-size: 14px;
+
+}
+
+#bar {
+    padding-top: 10px;
+}
+
+#reply {
+    padding-top: 10px;
+    border:none;
+    position: absolute;
+    left: 300px;
+    background: none;
+    cursor: pointer;
+}
+
+#message {
+    padding: 10px;
+
+}
