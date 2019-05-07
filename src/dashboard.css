@@ -250,7 +250,11 @@
     font-size: 30px;
     text-align: center;
     text-shadow: none;
-    transition:  0.2s ease-in-out;
+    transition:  0.2s;
+  }
+  .close:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
   }
   .btn-cancel {
     font-weight: 500;
