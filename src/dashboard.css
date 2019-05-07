@@ -47,7 +47,7 @@
   .sidebar {
     background-color: #eeeeee;
     border-right: 1px solid #eeeeee;
-    min-height: 100vp;
+    min-height: 100vh;
   }
   .nav-sidebar {
     display: block;
@@ -96,13 +96,7 @@
     width: 100%;
     cursor: pointer;
   }
-  
-  /* #collapse{
-    position: absolute;
-    right: 30px;
-    color:#fa7268;
-    font-size: 30px;
-  } */
+
   /* Main content */
   .main {
     padding: 20px;
