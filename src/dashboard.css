@@ -130,6 +130,7 @@
     background-color: #e0e0e0;
     /* color: white; */
     padding: 10px;
+    cursor: pointer;
   }
   
   .card-row {
@@ -233,6 +234,7 @@
   .btn-cancel {
     font-weight: 500;
   }
+
   
   @media (min-width: 768px) {
     .main {
