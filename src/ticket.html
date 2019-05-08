@@ -62,28 +62,34 @@
             <div class="card-header">
                 <div class="input-group-text">Budget</div>
 
-                <label type="text"  id="title" placeholder="Title" readonly>What do you do when your budget
+                <label type="text" id="title" placeholder="Title" readonly>What do you do when your budget
                     doesn't balance?</label>
             </div>
             <!-- </div> -->
 
             <!-- <div class="form-group"> -->
 
-            <textarea class="card-body" type="text" id="message" formControlName="message" placeholder="Description"
-                rows="6" readonly></textarea>
+            <p class="card-body" type="text" id="message" formControlName="message" rows="6" readonly>There are a number
+                of serious problems associated with budgeting, which include gamesmanship, excessive time required to
+                create budgets, and budgeting inaccuracy</p>
 
             <!-- </div> -->
 
-
+            <div class="card-footer bg-transparent ">
+                <div href="#collapseComment" data-toggle="collapse" aria-controls="collapseComment">
+                    <div class="text-right">
+                        <button class="btn btn-primary" id="btn-comment" type="submit"
+                            data-toggle="modal">Comment</button>
+                    </div>
+                </div>
+            </div>
             </form>
 
         </div>
-        <div href="#collapseComment" data-toggle="collapse" aria-controls="collapseComment">       
-        <div class="text-right">
-            <button class="btn btn-primary"  id="btn-comment" type="submit" data-toggle="modal">Comment</button>
-        </div>
+
     </div>
-    </div>
+
+
     <!-- </div>
         </div>
 
@@ -136,68 +142,68 @@
     </div> -->
     <div class="container">
         <!-- <div class="row"> -->
-<div>
+        <div>
             <!-- <div class="col-md-9"> -->
-                <form method="POST" id="comment_form">
-                    <div class="collapse show" id="collapseComment">
-                        <div class="form-group" id="box">
-                            <textarea name="comment_content" type="text" id="comment_content" class="form-control"
-                                placeholder="Enter Comment" rows="5" style="width:100%;"></textarea>
-                        </div>
-                        <div class="form-group">
-                            <input type="hidden" name="comment_id" id="comment_id" value="0" >
-                            <div class="text-right">
+            <form method="POST" id="comment_form">
+                <div class="collapse show" id="collapseComment">
+                    <div class="form-group" id="box">
+                        <textarea name="comment_content" type="text" id="comment_content" class="form-control"
+                            placeholder="Enter Comment" rows="5" style="width:100%;"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="hidden" name="comment_id" id="comment_id" value="0">
+                        <div class="text-right">
                             <input type="submit" name="submit" id="submit" class="btn btn-info" value="Submit">
                         </div>
-                        </div>
-                    </div>
-                </form>
-                <span id="comment_message"></span>
-                <br>
-                <div id="display_comment">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">By <b>Dona Huber</b> on <i>2017-12-29 05:17:38</i></div>
-                        <div class="panel-body">I am waiting for more update.</div>
-                        <div class="panel-footer" alignment="right"><button type="button" class="btn btn-default reply"
-                                id="2">Reply</button></div>
-                    </div>
-
-                    <div class="panel panel-default" style="margin-left:48px">
-                        <div class="panel-heading">By <b>Peter Parker</b> on <i>2017-12-29 05:18:33</i></div>
-                        <div class="panel-body">Thanks...</div>
-                        <div class="panel-footer" alignment="right"><button type="button" class="btn btn-default reply"
-                                id="5">Reply</button></div>
-                    </div>
-
-                    <div class="panel panel-default">
-                        <div class="panel-heading">By <b>John Smith</b> on <i>2017-12-29 05:17:09</i></div>
-                        <div class="panel-body">Nice Post</div>
-                        <div class="panel-footer" alignment="right"><button type="button" class="btn btn-default reply"
-                                id="1">Reply</button></div>
-                    </div>
-
-                    <div class="panel panel-default" style="margin-left:48px">
-                        <div class="panel-heading">By <b>Peter Parker</b> on <i>2017-12-29 05:17:55</i></div>
-                        <div class="panel-body">Thanks John!</div>
-                        <div class="panel-footer" alignment="right"><button type="button" class="btn btn-default reply"
-                                id="3">Reply</button></div>
-                    </div>
-
-                    <div class="panel panel-default" style="margin-left:96px">
-                        <div class="panel-heading">By <b>John Smith</b> on <i>2017-12-29 05:18:19</i></div>
-                        <div class="panel-body">You are welcome Peter.</div>
-                        <div class="panel-footer" alignment="right"><button type="button" class="btn btn-default reply"
-                                id="4">Reply</button></div>
-                    </div>
-
-                    <div class="panel panel-default" style="margin-left:144px">
-                        <div class="panel-heading">By <b>Peter Parker</b> on <i>2017-12-29 05:18:59</i></div>
-                        <div class="panel-body">OK..Sure</div>
-                        <div class="panel-footer" alignment="right"><button type="button" class="btn btn-default reply"
-                                id="6">Reply</button></div>
                     </div>
                 </div>
+            </form>
+            <span id="comment_message"></span>
+            <br>
+            <div id="display_comment">
+                <div class="panel panel-default">
+                    <div class="panel-heading">By <b>Dona Huber</b> on <i>2017-12-29 05:17:38</i></div>
+                    <div class="panel-body">I am waiting for more update.</div>
+                    <div class="panel-footer" alignment="right"><button type="button" class="btn btn-default reply"
+                            id="2">Reply</button></div>
+                </div>
+
+                <div class="panel panel-default" style="margin-left:48px">
+                    <div class="panel-heading">By <b>Peter Parker</b> on <i>2017-12-29 05:18:33</i></div>
+                    <div class="panel-body">Thanks...</div>
+                    <div class="panel-footer" alignment="right"><button type="button" class="btn btn-default reply"
+                            id="5">Reply</button></div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">By <b>John Smith</b> on <i>2017-12-29 05:17:09</i></div>
+                    <div class="panel-body">Nice Post</div>
+                    <div class="panel-footer" alignment="right"><button type="button" class="btn btn-default reply"
+                            id="1">Reply</button></div>
+                </div>
+
+                <div class="panel panel-default" style="margin-left:48px">
+                    <div class="panel-heading">By <b>Peter Parker</b> on <i>2017-12-29 05:17:55</i></div>
+                    <div class="panel-body">Thanks John!</div>
+                    <div class="panel-footer" alignment="right"><button type="button" class="btn btn-default reply"
+                            id="3">Reply</button></div>
+                </div>
+
+                <div class="panel panel-default" style="margin-left:96px">
+                    <div class="panel-heading">By <b>John Smith</b> on <i>2017-12-29 05:18:19</i></div>
+                    <div class="panel-body">You are welcome Peter.</div>
+                    <div class="panel-footer" alignment="right"><button type="button" class="btn btn-default reply"
+                            id="4">Reply</button></div>
+                </div>
+
+                <div class="panel panel-default" style="margin-left:144px">
+                    <div class="panel-heading">By <b>Peter Parker</b> on <i>2017-12-29 05:18:59</i></div>
+                    <div class="panel-body">OK..Sure</div>
+                    <div class="panel-footer" alignment="right"><button type="button" class="btn btn-default reply"
+                            id="6">Reply</button></div>
+                </div>
             </div>
+        </div>
         <!-- </div> -->
     </div>
     <!-- Dashboard -->
