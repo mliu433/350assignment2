@@ -81,6 +81,7 @@
     transition: 0.2s;
   }
   .btn-main {
+    
     color: #333333;
     border-radius: 5px;
     background: #fa7268;
@@ -93,6 +94,8 @@
     border-color: #f3a183;
   }
   #create-new-button {
+    
+  
     color: #333333;
     margin-bottom: 10px;
     width: 100%;
@@ -275,6 +278,10 @@
     .btn {
       font-size: 1rem;
     }
+  }
+
+  #jump-ticket{
+    text-decoration: none;
   }
 
  

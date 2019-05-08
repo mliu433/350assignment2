@@ -22,7 +22,7 @@
   <!-- Custom styles for this template -->
   <link href="dashboard.css" rel="stylesheet">
 
- 
+
 </head>
 
 <body>
@@ -34,8 +34,8 @@
     </button>
     <a class="navbar-brand" id="project" href="#"><i class="far fa-lightbulb">&nbsp&nbsp&nbsp&nbsp</i>Highlight</a>
     <form class="form-inline ml-auto mr-2 my-auto d-inline">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search">
-      </form>
+      <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search">
+    </form>
     <div id="navbar" class="navbar-collapse collapse flex-grow-0">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
@@ -49,11 +49,11 @@
       </ul>
     </div>
   </nav>
-  
+
   <!-- Create a ticket -->
-  
+
   <div class="modal fade" id="create">
-  
+
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
@@ -71,8 +71,8 @@
               <input class="form-control" type="text" id="category" placeholder="Category">
             </div>
             <div class="form-group">
-              <textarea class="form-control" type="text" id="message" formControlName="message" placeholder="Description"
-                rows="6"></textarea>
+              <textarea class="form-control" type="text" id="message" formControlName="message"
+                placeholder="Description" rows="6"></textarea>
             </div>
             <div class="text-right">
               <button class="btn btn-main btn-lg" type="submit" data-toggle="modal">Create</button>
@@ -90,8 +90,8 @@
 
       <!-- Sidebar -->
       <div class="col-sm-3 col-md-2 sidebar">
-          <a href="#" class="btn btn-main center-block" id="create-new-button" data-toggle="modal" data-target="#create">
-              <i class="fas fa-plus"></i> Create Ticket</a>
+        <a href="#" class="btn btn-main center-block" id="create-new-button" data-toggle="modal" data-target="#create">
+          <i class="fas fa-plus"></i> Create Ticket</a>
         <ul class="nav nav-sidebar">
           <li class="nav-item"><a class="nav-link" href="#">Budget</a></li>
           <li class="nav-item"><a class="nav-link" href="#">Design</a></li>
@@ -101,64 +101,70 @@
           <li class="nav-item"><a class="nav-link" href="#">Useability</a></li>
         </ul>
       </div>
-      
+
       <!-- Main tickets area -->
       <div class="col-sm-9 col-md-10 main" id="main-view">
 
-          <!-- <h1 class="page-header">Dashboard</h1> -->
-          
-          <div class="row">
-            <div class="col-sm-12 masonry">
-              <h5 class="ticket-group round-top" href="#collapseExample" data-toggle="collapse" aria-controls="collapseExample"
-                aria-expanded="false">
-                <i class="fas fa-money-check"></i> Budget <i class="fas fa-collapse" id="collapse"></i>
-              </h5>
-            </div>
+        <!-- <h1 class="page-header">Dashboard</h1> -->
+
+        <div class="row">
+          <div class="col-sm-12 masonry">
+            <h5 class="ticket-group round-top" href="#collapseExample" data-toggle="collapse"
+              aria-controls="collapseExample" aria-expanded="false">
+              <i class="fas fa-money-check"></i> Budget <i class="fas fa-collapse" id="collapse"></i>
+            </h5>
           </div>
+        </div>
+        <a href="./ticket.html" id="jump-ticket">
+          <div class="collapse show" id="collapseExample">
 
-          <div class="collapse show" id="collapseExample" >
-          <div class="row card-row"  >
-            <div class="col-lg-4 col-md-4 col-xs-12 masonry">
-              <div class="card ticket">
-                <h5 class="card-header">Ticket title</h5>
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                    content.</p>
-                  <i class="far fa-comment-dots" id="comment">15&nbsp&nbsp </i>
-                  <i class="far fa-eye" id="view">17 &nbsp</i>
-                  <i class="fas fa-check" id="approve">&nbsp9</i>
+            <div class="row card-row">
+              <div class="col-lg-4 col-md-4 col-xs-12 masonry">
+                <div class="card ticket">
+
+                  <h5 class="card-header">Ticket title</h5>
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's
+                      content.</p>
+                    <i class="far fa-comment-dots" id="comment">15&nbsp&nbsp </i>
+                    <i class="far fa-eye" id="view">17 &nbsp</i>
+                    <i class="fas fa-check" id="approve">&nbsp9</i>
+                  </div>
                 </div>
               </div>
-            </div>
-            
-            <div class="col-lg-4 col-md-4 col-xs-12 masonry">
-              <div class="card ticket">
-                <h5 class="card-header">Ticket title that is actually rather long</h5>
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                    content.</p>
-                  <i class="far fa-comment-dots" id="comment">15&nbsp&nbsp </i>
-                  <i class="far fa-eye" id="view">17 &nbsp</i>
-                  <i class="fas fa-check" id="approve">&nbsp9</i>
+
+              <div class="col-lg-4 col-md-4 col-xs-12 masonry">
+                <div class="card ticket">
+                  <h5 class="card-header">Ticket title that is actually rather long</h5>
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's
+                      content.</p>
+                    <i class="far fa-comment-dots" id="comment">15&nbsp&nbsp </i>
+                    <i class="far fa-eye" id="view">17 &nbsp</i>
+                    <i class="fas fa-check" id="approve">&nbsp9</i>
+                  </div>
                 </div>
               </div>
-            </div>
 
 
-            <div class="col-lg-4 col-md-4 col-xs-12 masonry">
-              <div class="card ticket">
-                <h5 class="card-header">Ticket title that is probably much longer than that first one there, to test how a really long title looks</h5>
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                    content.</p>
-                  <i class="far fa-comment-dots" id="comment">15&nbsp&nbsp </i>
-                  <i class="far fa-eye" id="view">17 &nbsp</i>
-                  <i class="fas fa-check" id="approve">&nbsp9</i>
+              <div class="col-lg-4 col-md-4 col-xs-12 masonry">
+                <div class="card ticket">
+                  <h5 class="card-header">Ticket title that is probably much longer than that first one there, to test
+                    how a really long title looks</h5>
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's
+                      content.</p>
+                    <i class="far fa-comment-dots" id="comment">15&nbsp&nbsp </i>
+                    <i class="far fa-eye" id="view">17 &nbsp</i>
+                    <i class="fas fa-check" id="approve">&nbsp9</i>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <!-- <div class="col-lg-4 col-md-4 col-xs-12 masonry">
+              <!-- <div class="col-lg-4 col-md-4 col-xs-12 masonry">
               <div class="card ticket">
                 <h5 class="card-header">Ticket title that is actually rather long</h5>
                 <div class="card-body">
@@ -170,46 +176,48 @@
                 </div>
               </div>
             </div> -->
-            
-          </div>
-          </div>
+     
+      </div>
+    </a>
+    </div>
 
-          <div class="row">
-            <div class="col-sm-12 masonry">
-              <h4 class="ticket-group round-top" href="#collapseExample1" data-toggle="collapse" aria-controls="collapseExample1"
-                aria-expanded="false"><i class="fas fa-money-check"></i> Design <i class="fas fa-collapse" id="collapse"></i></h4>
+    <div class="row">
+      <div class="col-sm-12 masonry">
+        <h4 class="ticket-group round-top" href="#collapseExample1" data-toggle="collapse"
+          aria-controls="collapseExample1" aria-expanded="false"><i class="fas fa-money-check"></i> Design <i
+            class="fas fa-collapse" id="collapse"></i></h4>
+      </div>
+    </div>
+<a href="./ticket.html" id="jump-ticket">
+    <div class="collapse show" id="collapseExample1">
+      <div class="row card-row">
+        <div class="col-lg-4 col-md-4 col-xs-12 masonry">
+          <div class="card ticket" href="./ticket.html">
+            <h5 class="card-header">Ticket title</h5>
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <i class="far fa-comment-dots" id="comment">15&nbsp&nbsp </i>
+              <i class="far fa-eye" id="view">17 &nbsp</i>
+              <i class="fas fa-check" id="approve">&nbsp9</i>
             </div>
           </div>
-          
-          <div class="collapse show" id="collapseExample1">
-            <div class="row card-row">
-              <div class="col-lg-4 col-md-4 col-xs-12 masonry">
-                <div class="card ticket" href="./ticket.html">
-                  <h5 class="card-header">Ticket title</h5>
-                  <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                      content.</p>
-                    <i class="far fa-comment-dots" id="comment">15&nbsp&nbsp </i>
-                    <i class="far fa-eye" id="view">17 &nbsp</i>
-                    <i class="fas fa-check" id="approve">&nbsp9</i>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          </div>
-        <!-- Bootstrap core JavaScript
+        </div>
+      </div>
+    </div>
+  </a>
+  </div>
+  <!-- Bootstrap core JavaScript
     ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-        <script src="../../350assignment2/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-        <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-        <!-- <script src="../../assets/js/vendor/holder.min.js"></script> -->
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
-        <!-- <script src="https://unpkg.com/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"></script>
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+  <script src="../../350assignment2/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+  <!-- <script src="../../assets/js/vendor/holder.min.js"></script> -->
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
+  <!-- <script src="https://unpkg.com/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"></script>
         <script>
         $('div.row').masonry({
         columnWidth: 'div.masonry',
@@ -218,4 +226,5 @@
         </script> -->
 
 </body>
+
 </html>
