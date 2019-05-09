@@ -58,3 +58,8 @@ font-size: 14px;
 .panel-reply {
     margin-left: 2rem;
 }
+
+.date {
+    color: grey;
+    font-size: 80%;
+}
