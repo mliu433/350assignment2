@@ -191,6 +191,10 @@
     border-bottom: none;
     font-size: 18px;
     font-weight: 700;
+    height: 67.2px;
+  }
+  .card-body {
+    height: 152.2px;
   }
   .card a {
     text-decoration: none;
