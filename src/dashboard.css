@@ -2,13 +2,7 @@
  * Base structure
  */
 
-  /*
-   * Top navigation
-   * Hide default border to remove 1px line.
-   */
-  /* .navbar-fixed-top {
-    border: 0;
-  } */
+  /* Navbar (top navigation) */
   .navbar {
     background: linear-gradient(to top right, #fa7268 0%, #f3a183 100%);
   }
