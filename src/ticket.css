@@ -10,23 +10,14 @@
 }
 .input-group-text{
     background-color:#e0e0e0;
-height: auto;
-position: absolute;
-right: 20px;
-border-radius: 12px;
+    height: auto;
+    position: absolute;
+    right: 20px;
+    border-radius: 12px;
 }
-
-
-/* .label {
-    color: white;
-    padding: 8px;
-  }
-  .success {background-color: #4CAF50;
-} */
 
 .col > label {
 font-size: 14px;
-
 }
 
 .reply {
