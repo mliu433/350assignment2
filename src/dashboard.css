@@ -161,6 +161,7 @@
     padding: 15px;
   }
   .card {
+    
     background-color: white;
     list-style-type: none;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -283,5 +284,7 @@
   #jump-ticket{
     text-decoration: none;
   }
+
+  .btn-search
 
  
