@@ -23,9 +23,13 @@
 
 .reply {
     border:none;
-    left: 300px;
+    /* left: 300px; */
     background: none;
     cursor: pointer;
+}
+.reply:hover {
+    transform: scale(1.1);
+    color: #f3a183;
 }
 .btn-react {
     padding-top: 0;
@@ -34,6 +38,10 @@
     padding-right: 5px;
     font-size: 13px;
     color: #fa7268;
+}
+.btn-react:hover {
+    transform: scale(1.1);
+    color: #f3a183;
 }
 .comments {
     border-radius: 5px;
@@ -53,7 +61,7 @@
     color: #fa7268;
 }
 .panel-body {
-    font-size: 120%;
+    font-size: 110%;
 }
 .panel-reply {
     margin-left: 2rem;
