@@ -39,7 +39,9 @@
     padding-right: 0px;
     margin-right: 20px;
   }
-  
+  .btn.btn-search:hover {
+    transform: scale(1.15);
+  }
   #panel:hover {
     transform: scale(1.1);
     transition: 0.2s;
