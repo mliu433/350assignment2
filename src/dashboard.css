@@ -50,10 +50,7 @@
     color:#333333;
     transition: 0.2s;
     }
-  /*
-   * Sidebar
-   */
-  
+
   /* Sidebar navigation */
   .sidebar {
     background-color: #eeeeee;
@@ -70,6 +67,7 @@
     margin-left: 0.2rem;
     color: rgb(73, 111, 145);
     font-weight: 700;
+    font-size: 105%;
   }
   .nav-sidebar > li > a {
     /* color: #616161; */
