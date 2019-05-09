@@ -39,8 +39,6 @@
   }
   
   #panel:hover {
-    /* font-weight: 700; */
-    /* color:#fff2f1; */
     transform: scale(1.1);
     transition: 0.2s;
   }
