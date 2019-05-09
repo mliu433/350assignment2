@@ -218,23 +218,19 @@
     box-shadow:none;
   }
   .modal-content {
-    /* padding:30px; */
     background-color: #eee;
   }
   .modal-header {
-    /* padding-top: 1.5rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 0px; */
-    text-align: center
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #fa7268;
+    text-align: center;
   }
   .modal-body {
-    /* padding: 2rem; */
     background-color: #eee;
     border-radius: 5px;
   }
   .modal-body form {
-    /* padding: 30px; */
     margin: 0px;
   }
   .modal-body .form-control {
