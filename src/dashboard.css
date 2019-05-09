@@ -95,6 +95,9 @@
     transform: scale(1.03);
     transition: 0.2s;
   }
+  .btn:focus, .btn.focus {
+    box-shadow:none;
+  }
   .btn-main {
     color: #333333;
     border-radius: 5px;
@@ -121,6 +124,13 @@
   .main .page-header {
     margin-top: 0;
     border-bottom: 2px solid  #eee;
+  }
+  /* background colour */
+  #main-view {
+    background-color: #f5f5f5;
+  }
+  body {
+    background-color: #f5f5f5;
   }
 
   /* item with rounded top corners */
@@ -153,6 +163,7 @@
     transition: 0.2s;
     color: #333333;
   }
+
   /* icons */
   .fa-collapse:before {   
     content: "\f077";
@@ -160,10 +171,8 @@
   .collapsed .fa-collapse:before {
     content: "\f078";
   }
-  /* .ticket-group.collapsed {
-    border-radius: 5px;
-  } */
   
+  /* Tickets */
   .card-row {
     padding-bottom: 25px;
   }
@@ -171,7 +180,6 @@
     padding: 15px;
   }
   .card {
-    
     background-color: white;
     list-style-type: none;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -186,7 +194,7 @@
     background-color: #fff2f1;
   }
 
-  /* for text within cards */
+  /* text within cards */
   .card-header {
     color: #333333;
     background:  linear-gradient(to top right, #fa7268 0%, #f3a183 100%);;
@@ -203,21 +211,12 @@
     color: black;
   }
 
-  /* background colour */
-  #main-view {
-    background-color: #f5f5f5;
-  }
-  body {
-    background-color: #f5f5f5;
-  }
   .form-control:focus {
     border-color: rgba(250,114,104, 0.8);
     box-shadow: none;
   }
 
-  .btn:focus, .btn.focus {
-    box-shadow:none;
-  }
+  /* Create new */
   .modal-content {
     background-color: #eee;
   }
