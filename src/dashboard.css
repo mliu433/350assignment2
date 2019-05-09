@@ -31,6 +31,12 @@
     background-color: white;
     box-shadow: none;
   }
+  .btn-search {
+    background-color: transparent;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 20px;
+  }
   
   #panel:hover {
     /* font-weight: 700; */
@@ -38,7 +44,6 @@
     transform: scale(1.1);
     transition: 0.2s;
   }
-    
   #panel {
     color:#333333;
     transition: 0.2s;
@@ -90,7 +95,6 @@
     transition: 0.2s;
   }
   .btn-main {
-    
     color: #333333;
     border-radius: 5px;
     background: #fa7268;
@@ -103,8 +107,6 @@
     border-color: #f3a183;
   }
   #create-new-button {
-    
-  
     color: #333333;
     margin-bottom: 10px;
     width: 100%;
