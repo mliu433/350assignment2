@@ -57,7 +57,12 @@
     display: block;
     padding: 0px;
   }
-
+  .category-label {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.2rem;
+    color: rgb(73, 111, 145);
+  }
   .nav-sidebar > li > a {
     /* color: #616161; */
     color: rgb(73, 111, 145);
