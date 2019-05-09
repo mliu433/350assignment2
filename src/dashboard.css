@@ -137,9 +137,7 @@
 
   /* Category Header */
   .ticket-group {
-    /* border-bottom: 3px solid #eee; */
     background-color: #e0e0e0;
-    /* color: white; */
     padding: 10px;
     cursor: pointer;
   }
