@@ -20,10 +20,11 @@
 .col > label {
     font-size: 14px;
 }
-
+.card-body {
+    font-size: 120%;
+}
 .reply {
     border:none;
-    /* left: 300px; */
     background: none;
     cursor: pointer;
 }
@@ -43,10 +44,23 @@
     transform: scale(1.1);
     color: #f3a183;
 }
+#box {
+    width: 100%;
+}
+#comment_form {
+    margin-bottom: 0px;
+}
+#comment_form .form-group {
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
 .comments {
     border-radius: 5px;
     background-color: white;
-    padding: 10px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-left: 0px;
@@ -61,7 +75,7 @@
     color: #fa7268;
 }
 .panel-body {
-    font-size: 110%;
+    font-size: 120%;
 }
 .panel-reply {
     margin-left: 2rem;
